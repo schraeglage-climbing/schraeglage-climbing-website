@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Impressum – Ascend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <a href="index.html">Ascend</a>
+        </div>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="index.html#angebot">Angebot</a></li>
+                <li><a href="index.html#ueber-mich">Über mich</a></li>
+                <li><a href="index.html#preise">Preise</a></li>
+                <li><a href="index.html#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="section">
+    <div class="container">
+        <h1>Impressum</h1>
+
+        <section>
+            <h2>Angaben gemäß § 5 TMG / ECG</h2>
+            <p>
+                <strong>Verantwortlich für den Inhalt:</strong><br>
+                Dein Name<br>
+                Deine Straße 1<br>
+                PLZ Ort<br>
+                Land
+            </p>
+
+            <p>
+                <strong>Kontakt:</strong><br>
+                Telefon: +43&nbsp;XXX&nbsp;XXX&nbsp;XX<br>
+                E-Mail: <a href="mailto:deine-mail@beispiel.at">deine-mail@beispiel.at</a>
+            </p>
+
+            <p>
+                <!-- Falls zutreffend: -->
+                <strong>Unternehmensform / Firmenbuch:</strong><br>
+                [z.&nbsp;B. Einzelunternehmen, GmbH, etc.]<br>
+                Firmenbuchnummer / Registergericht (falls vorhanden)
+            </p>
+
+            <p>
+                <!-- Falls zutreffend: -->
+                <strong>Umsatzsteuer-ID:</strong><br>
+                ATU&nbsp;XXXXXXX
+            </p>
+        </section>
+
+        <section>
+            <h2>Haftung für Inhalte</h2>
+            <p>
+                Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
+                Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen.
+            </p>
+        </section>
+
+        <section>
+            <h2>Haftung für Links</h2>
+            <p>
+                Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe.
+                Für diese fremden Inhalte übernehmen die jeweiligen Anbieter oder Betreiber die Verantwortung.
+            </p>
+        </section>
+
+        <section>
+            <h2>Urheberrecht</h2>
+            <p>
+                Die auf dieser Website erstellten Inhalte und Werke unterliegen dem Urheberrecht. Jede
+                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+                des Urheberrechts bedarf meiner schriftlichen Zustimmung.
+            </p>
+        </section>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Ascend. Alle Rechte vorbehalten.</p>
+        <nav aria-label="Footernavigation">
+            <a href="impressum.html">Impressum</a>
+            <span aria-hidden="true">·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

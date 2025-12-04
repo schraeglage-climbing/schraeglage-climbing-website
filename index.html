@@ -1,60 +1,230 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Ascend – Kletterkurse & Routenbau</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 0; line-height: 1.5; }
-    header { padding: 1.5rem; border-bottom: 1px solid #ddd; }
-    nav a { margin-right: 1rem; text-decoration: none; }
-    main { padding: 1.5rem; max-width: 900px; margin: 0 auto; }
-    section { margin-bottom: 2rem; }
-    footer { padding: 1rem 1.5rem; border-top: 1px solid #ddd; font-size: 0.9rem; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Ascend – Klettercoaching &amp; Routenbau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ascend bietet Klettercoaching, Routenbau und Trainingsplanung für Kletterhallen und ambitionierte Kletter:innen.">
+    <meta name="author" content="Dein Name">
+    <!-- TODO: Favicon einbinden, z.B. <link rel="icon" href="assets/img/favicon.ico"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Ascend – Klettercoaching & Routenbau</h1>
-    <nav>
-      <a href="#angebot">Angebot</a>
-      <a href="#ueber-mich">Über mich</a>
-      <a href="#preise">Preise</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
-  </header>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <a href="index.html">Ascend</a>
+        </div>
+        <nav class="main-nav" aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="#angebot">Angebot</a></li>
+                <li><a href="#ueber-mich">Über mich</a></li>
+                <li><a href="#preise">Preise</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-  <main>
-    <section id="angebot">
-      <h2>Angebot</h2>
-      <ul>
-        <li>Routenbau für Kletter- & Boulderhallen</li>
-        <li>Privatcoachings für Kletter:innen</li>
-        <li>Gruppenkurse & Technik-Workshops</li>
-        <li>Trainingspläne & Leistungsdiagnostik</li>
-      </ul>
+<main>
+    <!-- Hero-Bereich -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Klettercoaching &amp; Routenbau</p>
+                <h1>Ascend – gemeinsam auf das nächste Level.</h1>
+                <p class="hero-subtitle">
+                    Individuelles Klettertraining, durchdachte Routen und klare Trainingspläne
+                    für Kletterhallen und ambitionierte Kletter:innen.
+                </p>
+                <div class="hero-actions">
+                    <a href="#kontakt" class="btn btn-primary">Jetzt anfragen</a>
+                    <a href="#angebot" class="btn btn-ghost">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="ueber-mich">
-      <h2>Über mich</h2>
-      <p>Kurzer Text zu deinem Hintergrund, Lizenzen, Erfahrung in Hallen, etc.</p>
+    <!-- Angebot -->
+    <section id="angebot" class="section">
+        <div class="container">
+            <h2>Angebot</h2>
+            <p class="section-intro">
+                Ich unterstütze dich oder deine Kletterhalle mit Coaching, Routenbau und
+                Trainingskonzepten, die wirklich zu euch passen.
+            </p>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Privatcoaching</h3>
+                    <p>
+                        1:1 oder in Kleingruppen: Technik, Taktik und Mentales für
+                        alle Grade – vom Einstieg bis zum Projektieren deiner Traumroute.
+                    </p>
+                    <ul>
+                        <li>Analyse deiner Klettertechnik</li>
+                        <li>Individuelle Übungen &amp; Homework</li>
+                        <li>Optional: Videoanalyse</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Workshops &amp; Kurse</h3>
+                    <p>
+                        Strukturierte Kurse für Hallen, Vereine oder Gruppen – z.&nbsp;B.
+                        Technik-Workshops, Sturztraining oder spezifische Themen wie On-Sight-Taktik.
+                    </p>
+                    <ul>
+                        <li>Feste Inhalte oder nach Absprache</li>
+                        <li>Geeignet für Hallen-Events</li>
+                        <li>Ideal zur Kundenbindung</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Routenbau &amp; Consulting</h3>
+                    <p>
+                        Unterstützung beim Routenbau, Setzen von Test-Routen oder Feedback
+                        zu Schwierigkeitsverteilung und Angebot in der Halle.
+                    </p>
+                    <ul>
+                        <li>Routen nach Zielgruppe(n)</li>
+                        <li>Feintuning von Graden &amp; Styles</li>
+                        <li>Regelmäßige Checks möglich</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Trainingsplanung</h3>
+                    <p>
+                        Periodisierte Trainingspläne, die zu deinem Alltag passen – mit Fokus
+                        auf Kletterleistung, Überhangkompetenz oder spezifische Projekte.
+                    </p>
+                    <ul>
+                        <li>Analyse deines Status quo</li>
+                        <li>4–12 Wochen Trainingsblöcke</li>
+                        <li>Regelmäßiges Check-in (optional)</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section id="preise">
-      <h2>Preise</h2>
-      <p>Hier kannst du z.B. Stundenpreise oder Paketpreise anführen.</p>
+    <!-- Über mich -->
+    <section id="ueber-mich" class="section section-alt">
+        <div class="container two-column">
+            <div>
+                <h2>Über mich</h2>
+                <p>
+                    Ich bin [Dein Name], leidenschaftlicher Kletterer und Coach. Seit mehreren Jahren
+                    arbeite ich mit Kletter:innen unterschiedlicher Niveaus – vom ersten Toprope bis
+                    zu hart projizierten Linien.
+                </p>
+                <p>
+                    In meinen Coachings verbinde ich Technik, Trainingslehre und mentale Aspekte.
+                    Mir ist wichtig, dass du verstehst, <strong>warum</strong> du etwas trainierst –
+                    nicht nur, <strong>was</strong> du trainierst.
+                </p>
+                <p>
+                    Neben Coachings unterstütze ich Kletterhallen im Routenbau und bei der
+                    Konzeption von Kursprogrammen.
+                </p>
+            </div>
+            <div class="about-highlights">
+                <h3>Schwerpunkte</h3>
+                <ul>
+                    <li>Technik-Coaching für Bouldern &amp; Seilklettern</li>
+                    <li>Projektieren &amp; Performance-Mindset</li>
+                    <li>Routenbau &amp; Hallenkonzepte</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>E-Mail: <a href="mailto:deinname@deinedomain.at">deinname@deinedomain.at</a><br>
-         Telefon: +43 …</p>
-      <p>Schreibe mir für Anfragen zu Kursen, Coachings oder Routenbau.</p>
-    </section>
-  </main>
+    <!-- Preise -->
+    <section id="preise" class="section">
+        <div class="container">
+            <h2>Preise</h2>
+            <p class="section-intro">
+                Jede Halle und jede Person ist anders. Hier findest du typische Pakete
+                als Orientierung. Für individuelle Anfragen schreib mir einfach.
+            </p>
 
-  <footer>
-    <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
-  </footer>
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <h3>Privatcoaching</h3>
+                    <p class="pricing-value">ab 90&nbsp;€ / 90&nbsp;min</p>
+                    <ul>
+                        <li>1:1 oder 2 Personen</li>
+                        <li>Individuelle Zielsetzung</li>
+                        <li>Zusammenfassung der Inhalte per Mail</li>
+                    </ul>
+                </article>
+
+                <article class="pricing-card">
+                    <h3>Workshops</h3>
+                    <p class="pricing-value">auf Anfrage</p>
+                    <ul>
+                        <li>Für Hallen, Vereine &amp; Gruppen</li>
+                        <li>Fixe Themen oder maßgeschneidert</li>
+                        <li>Ideal für Events oder Kursprogramme</li>
+                    </ul>
+                </article>
+
+                <article class="pricing-card">
+                    <h3>Routenbau &amp; Consulting</h3>
+                    <p class="pricing-value">auf Anfrage</p>
+                    <ul>
+                        <li>Tagessätze oder wiederkehrende Einsätze</li>
+                        <li>Feedback zu bestehenden Routen</li>
+                        <li>Unterstützung bei Angebotsplanung</li>
+                    </ul>
+                </article>
+            </div>
+
+            <p class="small-note">
+                Alle Preise verstehen sich als unverbindliche Orientierung. Konkrete Angebote
+                erhältst du nach kurzer Abstimmung per Mail.
+            </p>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="section section-alt">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p class="section-intro">
+                Interesse an Coaching, einem Workshop oder Routenbau? Schreib mir kurz, was du vorhast –
+                ich melde mich mit einem Vorschlag.
+            </p>
+            <div class="contact-box">
+                <p>
+                    <strong>E-Mail:</strong>
+                    <!-- TODO: echte Mailadresse eintragen -->
+                    <a href="mailto:deine-mail@beispiel.at">deine-mail@beispiel.at</a>
+                </p>
+                <p>
+                    Wenn du möchtest, kannst du direkt Infos zu deinem Klettern (Grad, Hallen, Ziele)
+                    in der Mail mitschicken. Das hilft mir bei der Vorbereitung.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Ascend. Alle Rechte vorbehalten.</p>
+        <nav aria-label="Footernavigation">
+            <a href="impressum.html">Impressum</a>
+            <span aria-hidden="true">·</span>
+            <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+    </div>
+</footer>
+
+<script>
+    // aktuelle Jahreszahl im Footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
